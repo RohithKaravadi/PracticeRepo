@@ -1,0 +1,17 @@
+select * from emp
+
+select max(sal) from emp
+
+
+select max(sal) from 
+emp 
+where sal > (select max(sal) from emp)
+
+
+SELECT sal
+FROM emp
+ORDER BY sal DESC
+LIMIT 1 OFFSET 1
+
+
+https://github.com/RohithKaravadi/text-file-Intitialcommit
