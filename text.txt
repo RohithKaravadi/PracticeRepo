@@ -16,3 +16,8 @@ LIMIT 1 OFFSET 1
 
 https://github.com/RohithKaravadi/text-file-Intitialcommit
 This is my second commit
+
+Select Min(sal)
+from emp
+Order by customerID sal DESC
+LIMIT 10 OFFSET 10
